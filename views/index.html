@@ -3,12 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taylor Series Calculator</title>
+    <title>Taylor Series | Home</title>
     <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/bootstrapCustom.css" />
+    <script defer src="./index.js"></script>
   </head>
-  <body>
-    <h1>
-      Un giorno qui ci sarà il calcolatore per le serie di Taylor, trusta.
-    </h1>
+  <body class="bg-secondary-subtle vh-100 w-100">
+    <div class="h-100">
+      <div
+        class="position-absolute w-lg-auto w-0 rounded-circle translate-middle-y circle"
+      ></div>
+      <div class="position-absolute formula1">
+        <img
+          src="./imgs/taylorSeries-formula.png"
+          class="img-fluid"
+          alt="TaylorSeriesFormula"
+        />
+      </div>
+      <div class="position-absolute formula2">
+        <img
+          src="./imgs/taylorSeries-formula.png"
+          class="img-fluid"
+          alt="TaylorSeriesFormula"
+        />
+      </div>
+      <div
+        class="w-md-60 w-80 m-md-5 m-2 h-100 d-flex flex-column justify-content-center align-items-start"
+      >
+        <h1>
+          Taylor Series Calculator, the calculator your math teacher needed.
+        </h1>
+        <button type="button" class="px-3 py-2 btn btn-primary">
+          Get Started
+        </button>
+      </div>
+    </div>
   </body>
 </html>

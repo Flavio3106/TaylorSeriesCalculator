@@ -2,7 +2,6 @@ const { serverData, views, routes } = require("./utils");
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = 3000;
 
 //Views
 app.set("views", path.join(__dirname, "views"));
@@ -16,13 +15,16 @@ app.get(routes.index, (req, res) => {
   res.status(200).render(views.index);
 });
 
+//route "/calculator"
+app.get(routes.calculator, (req, res) => {
+  res.status(200).render(views.calculator);
+});
+
 //when the route is not found
 app.all("*", (req, res) => {
   res.status(404).render(views.notFound);
 });
 
-app.listen(serverData.port, serverData.host, () =>
-  console.log(
-    `App running on port: http://${serverData.host}:${serverData.port}/`
-  )
+app.listen(serverData.port, () =>
+  console.log(`App running on port: ${serverData.port}/`)
 );
