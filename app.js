@@ -26,5 +26,5 @@ app.all("*", (req, res) => {
 });
 
 app.listen(serverData.port, () =>
-  console.log(`App running on port: ${serverData.port}/`)
+  console.log(`App running on port: ${serverData.port}`)
 );

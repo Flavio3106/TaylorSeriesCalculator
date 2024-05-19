@@ -2,7 +2,9 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "math": "^0.0.3"
   },
   "name": "taylorseriecalculator",
   "version": "1.0.0",
