@@ -45,7 +45,7 @@ To set up the project locally, follow these steps:
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:4000`
 
 ## Usage
 
@@ -74,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries or feedback, please contact [your email].
+For any inquiries or feedback, please contact iannone.flavio@gmail.com.
