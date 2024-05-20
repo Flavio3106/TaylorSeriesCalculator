@@ -8,11 +8,11 @@ The Taylor Series Calculator is a web application that allows users to compute a
 
 ### Mobile
 
-![Mobile]("./screenshots/Mobile/Mobile.png")
+![Mobile](screenshots/Desktop/Desktop.png)
 
 ### Desktop
 
-![Desktop]("./screenshots/Mobile/Desktop.png")
+![Desktop](screenshots/Mobile/Mobile.png)
 
 ## Features
 
