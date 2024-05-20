@@ -4,6 +4,16 @@
 
 The Taylor Series Calculator is a web application that allows users to compute and visualize the Taylor Series expansion of given mathematical functions. Built with Node.js and Bootstrap, this tool offers a seamless experience for students, educators, and anyone interested in mathematical analysis.
 
+## Preview
+
+### Mobile
+
+![Mobile]("./screenshots/Mobile/Mobile.png")
+
+### Desktop
+
+![Desktop]("./screenshots/Mobile/Desktop.png")
+
 ## Features
 
 - **User-friendly Interface**: Intuitive and responsive design powered by Bootstrap.
